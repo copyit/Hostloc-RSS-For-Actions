@@ -19,10 +19,8 @@ jobs:
         python-version: '3.x'
     - name: 'Install dependencies'
       run: python -m pip install --upgrade requests
-    - name: 'Install pip'
-      run: python -m pip install --pip
     - name: 'Install lxml' 
-      run: python -m pip install --upgrade lxml
+      run: python -m pip install -i https://pypi.douban.com/simple lxml
     - name: 'Install torequests'
       run: python -m pip install --upgrade torequests     
     - name: 'Install js2py'

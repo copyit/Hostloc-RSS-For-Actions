@@ -9,7 +9,7 @@ on:
 
 jobs:
   get_points:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-16.04
     steps:
     - name: 'Checkout codes'
       uses: actions/checkout@v2
